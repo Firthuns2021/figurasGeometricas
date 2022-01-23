@@ -71,3 +71,257 @@ span.pink {
     -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
+
+.circulo, .ovalo {
+    background: #A1CC3A;
+    border: 2px solid #888888;
+    margin: 2%;
+    height: 80px;
+    border-radius: 50%;
+}
+.circulo {
+    width: 80px;
+}
+.ovalo {
+    width: 150px;
+}
+
+ /****************************** **/
+
+.cuarto {
+    background: #A1CC3A;
+    border: 2px solid #888888;
+    margin: 2%;
+    height: 80px;
+    border-radius: 0 100% 0 0;
+    width: 80px;
+}
+/****************************** **/
+.semicirculo {
+    background: #A1CC3A;
+    border: 2px solid #888888;
+    margin: 2%;
+    height: 40px;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    width: 80px;
+}
+
+/****************************** **/
+.huevo {
+    border-radius: 50% / 70% 70% 40% 40%;
+    background: #A1CC3A;
+    border: 2px solid #888888;
+    margin: 2%;
+    height: 100px;
+    width: 80px;
+}
+.huevo2 {
+    border-top-left-radius: 50% 70%;
+    border-top-right-radius: 50% 70%;
+    border-bottom-right-radius: 50% 40%;
+    border-bottom-left-radius: 50% 40%;
+    background: #A1CC3A;
+    border: 2px solid #888888;
+    margin: 2%;
+    height: 100px;
+    width: 80px;
+}
+/****************************** **/
+.capsula {
+    border-radius: 20px;
+    background: linear-gradient(to right, #10ba00 0%, #10ba00 50%, #fc0505 51%, #ff0000 100%);
+    border: 1px solid #999999;
+    margin: 2%;
+    height: 40px;
+    width: 110px;
+}
+.limon {
+    border-radius: 10% 100% 40% 100%;
+    background: #FFFF00;
+    border: 1px solid #888888;
+    margin: 2%;
+    height: 100px;
+    width: 80px;
+    box-shadow: 0px 0px 10px 10px #b8b800 inset;
+}
+.hoja {
+    height: 100px;
+    width: 100px;
+    border-radius: 0 100% 0 100%;
+    background: linear-gradient(45deg, #58ad5c 0%, #27662b 50%, #27662b 51%, #27662b 51%, #58ad5c 100%);
+}
+.burguer {
+    border-radius: 50%;
+    background: #996600;
+    border: 1px solid #663300;
+    margin: 2%;
+    height: 40px;
+    width: 80px;
+    box-shadow:  0px 2px #CC3300,  0px 10px #660000,  0px 12px #669900, 0px 19px #996600;
+    transform:skew(75deg,100deg);
+}
+.oliva {
+    border-radius: 40% 100% 40% 100%;
+    background: #669900;
+    border: 1px solid #333300;
+    margin: 2%;
+    height: 100px;
+    width: 80px;
+    box-shadow: 0px 0px 10px 10px #336600 inset;
+}
+.huevo {
+    border-radius: 50% / 70% 70% 40% 40%;
+    background: #FFE4AC;
+    border: 1px solid #CCCCCC;
+    margin: 2%;
+    height: 100px;
+    width: 80px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.2) inset,
+    -5px -5px 15px rgba(0, 0, 0, 0.1) inset;
+}
+.melon {
+    border-radius: 100% / 95% 95% 95% 95%;
+    background: linear-gradient(to bottom, #627d4d 0%, #2b4217 7%, #50693c 28%, #2b4217 52%, #50693c 74%, #2b4217 91%, #2b4217 100%);
+    border: 1px solid #555555;
+    margin: 2%;
+    height: 60px;
+    width: 90px;
+    box-shadow: 0px 0px 15px 5px #2b4217 inset;
+}
+/****************************** **/
+.rombo {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #428bca;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.rombo-2 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #428bca;
+    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    -ms-transform: rotate(45deg) skew(15deg, 15deg);
+    -o-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) skew(15deg, 15deg);
+}
+.paralelogramo {
+    width: 150px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #428bca;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
+.trapecio {
+    width: 250px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #428bca;
+}
+.trapecio-top {
+    width: 250px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-top: 100px solid #428bca;
+}
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 100px solid #f0ad4e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+.triangulo-2 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid #f0ad4e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+.triangulo-tricolor {
+    width: 0;
+    height: 0;
+    border-left: 100px solid #428bca;
+    border-top: 50px solid #f0ad4e;
+    border-bottom: 50px solid #d9534f;
+}
+
+.triangulo-equilatero-bottom-left {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #f0ad4e;
+    border-bottom: 50px solid #f0ad4e;
+}
+.triangulo-equilatero-bottom {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #f0ad4e;
+}
+.oval-half-red {
+    width: 250px;
+    height: 100px;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    background: #5cb85c;
+    border: 3px solid #555;
+}
+.color-chart {
+    width:0;
+    height:0;
+    border-right: 50px solid #d9534f;
+    border-top: 50px solid #428bca;
+    border-left: 50px solid #f0ad4e;
+    border-bottom: 50px solid #5cb85c;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+.cono {
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    border-top: 100px solid #5cb85c;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.ribbon {
+    width: 0px;
+    height: 120px;
+    border-left: 50px solid #d9534f;
+    border-right: 50px solid #d9534f;
+    border-bottom: 35px solid transparent;
+}
+.luna {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 30px 10px 0 #d9534f;
+    -webkit-box-shadow: 30px 10px 0 #d9534f;
+    box-shadow: 30px 10px 0 #d9534f;
+}
+
+
+/****************************** **/
